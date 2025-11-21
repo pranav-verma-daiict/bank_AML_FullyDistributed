@@ -1,9 +1,9 @@
 ## bank_AML_FullyDistributed
 This is the fully distributed veriosn of the AML solution.
-### There will be two parts of the distributed version
+## There will be two parts of the distributed version
 
 
-## First part with 90% of the requirements being satisfied.  
+### First part with 90% of the requirements being satisfied.  
   Below is what it does:
 
   Feature,         How It’s Achieved,         Privacy Guarantee
@@ -22,6 +22,6 @@ This is the fully distributed veriosn of the AML solution.
   Banks actually locating their own clients in the aggregate,    "Right now, we skip the smart_eq search and just print fake averages",Will be added in threshold version
   Real distributed key generation (DKG),    All banks use independent keys → aggregation works only because we re-encrypt under one key (Bank 0),Will be replaced with real DKG
   Partial decryption shares over P2P,    No bank-to-bank communication yet,Will be added with Tokio TCP/QUIC
-  Anonymous posting of partial shares,    Not needed yet,Will be added
+  Anonymous posting of partial shares,    Not needed yet,Will be added.
 
-## Second part is where I will try to fix these features and hope it work as per our requirements.
+### Second part is where I will try to fix these features and hope it work as per our requirements.
