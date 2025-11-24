@@ -25,3 +25,4 @@ This is the fully distributed veriosn of the AML solution.
   Anonymous posting of partial shares,    Not needed yet,Will be added.
 
 ### Second part is where I will try to fix these features and hope it work as per our requirements.
+I am Pausing this version for the moment. Will work on the next iteration of the project see that at "**CSV_distributed**" version.
